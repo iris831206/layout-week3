@@ -43,8 +43,7 @@ body {
 
 .container {
   max-width: 1320px;
-  margin-left: -12px;
-  margin-right: -12px;
+  padding: 0 12px;
   margin: 0 auto;
 }
 /*PC first：max-width，斷點由大到小排列*/
