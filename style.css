@@ -14,7 +14,7 @@ img {
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: #000000 solid 1px;
+  /* outline: #000000 solid 1px; */
 }
 
 img {
@@ -433,6 +433,9 @@ body {
   .footer {
     padding-top: 55px;
     padding-bottom: 40px;
+  }
+  .footer .container {
+    max-width: 1320px; /*滿寬*/
   }
 
   .social-link {
