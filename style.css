@@ -41,9 +41,13 @@ body {
   --bg-light: #fbf2f2;
 }
 
+.padding {
+  padding: 0 12px;;
+}
 .container {
   max-width: 1320px;
-  padding: 0 12px;
+  margin-left:-12px;
+  margin-right:-12px;
   margin: 0 auto;
 }
 /*PC first：max-width，斷點由大到小排列*/
@@ -179,6 +183,7 @@ body {
     margin-top: 12px;
     flex-wrap: wrap;
     gap: 0;
+    margin-bottom: -16px;
   }
   .nav li {
     padding: 12px 0;
