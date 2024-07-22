@@ -14,7 +14,7 @@ img {
 *::before,
 *::after {
   box-sizing: border-box;
-  /* outline: #000000 solid 1px; */
+  outline: #000000 solid 1px;
 }
 
 img {
@@ -476,13 +476,14 @@ body {
   .contact-me {
     margin-top: auto;
     font-size: 16px;
+    margin-bottom: 20px;
   }
   .contact-me span {
     margin-top: auto;
     font-size: 16px;
   }
   .copyright {
-    padding-top: 32px;
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
   }
