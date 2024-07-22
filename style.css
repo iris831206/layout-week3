@@ -149,6 +149,12 @@ body {
 .mt-6 {
   margin-top: 48px;
 }
+@media (max-width: 576px) {
+  .mt-6 {
+    margin-top: 24px;
+  }
+}
+
 
 .bg-primary {
   background-color: var(--primary);
