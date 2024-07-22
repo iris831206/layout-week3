@@ -441,13 +441,17 @@ body {
     gap: 16px;
   }
   .social-icon {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
   }
 }
 @media (max-width: 576px) {
   .footer {
     padding: 24px 0px;
+  }
+  .social-icon {
+    width: 24px;
+    height: 24px;
   }
   .social-link {
     gap: 8px;
