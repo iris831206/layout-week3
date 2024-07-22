@@ -438,10 +438,6 @@ body {
     padding-top: 55px;
     padding-bottom: 40px;
   }
-  .footer .container {
-    max-width: 1320px; /*滿寬*/
-  }
-
   .social-link {
     gap: 16px;
   }
