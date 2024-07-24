@@ -334,20 +334,16 @@ body {
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .shop {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .brand {
     background-image: url(img/index-bg-sm.png);
   }
-  .flex-wrap {
-    flex-wrap: wrap;
-  }
-  .shop {
-    width: 100%;
-  }
   .img-double-a {
     background-image: url(img/home-section4-1-sm.png);
-    background-size: cover;
   }
   .img-youth {
     background-image: url(img/home-section4-2-sm.png);
