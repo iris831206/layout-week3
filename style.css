@@ -41,13 +41,9 @@ body {
   --bg-light: #fbf2f2;
 }
 
-.padding {
-  padding: 0 12px;;
-}
 .container {
   max-width: 1320px;
-  margin-left:-12px;
-  margin-right:-12px;
+  padding: 0 12px;
   margin: 0 auto;
 }
 /*PC first：max-width，斷點由大到小排列*/
@@ -160,6 +156,12 @@ body {
 }
 
 /* nav */
+.nav-container {
+  max-width: 1320px;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin: 0 auto;
+}
 .nav {
   padding: 16px 0;
 }
@@ -173,7 +175,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  .nav .container {
+  .nav-container {
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 1320px; /*滿寬*/
